@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tripnesia</title>
-    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
   </head>
   <body>
     <header>
@@ -46,9 +46,10 @@
       </div>
     </header>
 
+    <!-- Konten About Us  -->
     <main>
       <section id="about-us">
-        <div class="card">
+        <div class="card-container">
           <h2>Mengapa Memilih Kami?</h2>
           <div class="card-benefit">
             <div class="card">
@@ -114,21 +115,37 @@
             </div>
           </div>
         </div>
+
+        <!-- Form Newsletter -->
+        <aside>
+          <div class="card-form">
+            <div class="header-form">
+              <p>
+                Dapatkan Info<br />
+                Promo Terbaru
+              </p>
+            </div>
+            <div class="email">
+              <p>Email</p>
+            </div>
+            <form action="">
+              <input
+                type="email"
+                placeholder="johndoe@gmail.com"
+                class="input"
+              />
+              <div class="btn-submit">
+                <input type="submit" class="btn-bg" />
+              </div>
+            </form>
+          </div>
+        </aside>
       </section>
 
-      <aside>
-        <div class="form">
-          <p>Dapatkan Info Promo Terbaru</p>
-          <form action="">
-            <label for="">Email</label><br />
-            <input type="email" placeholder="johndoe@gmail.com" />
-            <input type="submit" />
-          </form>
-        </div>
-      </aside>
-
       <section id="blog-travel">
-        <h2>Blog Perjalanan Terbaru</h2>
+        <div class="card-container">
+          <h2>Blog Perjalanan Terbaru</h2>
+        </div>
         <div class="blog">
           <h3>Menikmati Sunrise di Bromo</h3>
           <p>
